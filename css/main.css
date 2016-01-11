@@ -101,9 +101,9 @@ textarea {
 }
 
 .central{
-    width: 300px;
+    width: 350px;
     position: absolute;
-    top: 75px;
+    top: 5%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -118,7 +118,7 @@ textarea {
     align-items: center;
 }
 
-.mainpic{
+.portrait{
     display: block;
     width: 150px;
     height: 150px;
@@ -135,7 +135,7 @@ textarea {
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin: 5px;
+    margin: 10px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -180,6 +180,11 @@ a:focus{
 
 #main{
     font-family: 'Dosis', sans-serif;
+    margin-bottom: 5px;
+}
+
+#portrait_img{
+    max-width: 80%;
 }
 
 #linkedin_img{                /* restricting width dinamically */
