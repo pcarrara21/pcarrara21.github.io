@@ -157,12 +157,9 @@ textarea {
     text-align: center;
 }
 
-.img{
-    max-width: 60%;
-    height: 100%;
-    margin: 0 auto;
-    display: block;
-    object-fit: contain;
+.img{    
+    margin: 0 auto;   
+    display: block;  
 }
 
 .test{
@@ -185,30 +182,42 @@ a:focus{
 
 #portrait_img{
     max-width: 80%;
+    margin-top: 10%;
+}
+
+#github_img{                
+    max-width: 60%;
+    margin-top: 20%;
+}
+
+#mail_img{
+    max-width: 60%;
+    margin-top: 27%;
 }
 
 #linkedin_img{                /* restricting width dinamically */
-    max-width: 52%;
+    max-width: 55%;
+    margin-top: 23%;
 }
 
 #github{
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    margin-top: 4px;
+    margin-top: 15px;
     visibility: hidden;
 }
 
 #mail{
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    margin-top: 4px;
+    margin-top: 19px;
     visibility: hidden;
 }
 
 #linkedin{
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    margin-top: 4px;
+    margin-top: 17px;
     visibility: hidden;
 }
 /* ==========================================================================
