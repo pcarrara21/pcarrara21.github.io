@@ -95,7 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.centered{
+.header{
+	width: 50%;
+    margin: 0 auto;
+}
+   
+.centered{	
     width: 100%;
     margin: 0 auto;
 }
@@ -121,7 +126,7 @@ textarea {
 .gif{
     display: inline-block;
     margin-bottom: 55px;
-    margin-left:50px;
+
     width: 64px;
     height: 39px;
 }
@@ -186,6 +191,10 @@ a:focus{
 #main{
     font-family: 'Dosis', sans-serif;
     margin-bottom: 5px;
+}
+
+#footer{    
+    margin-top: 10px;
 }
 
 #portrait_img{
