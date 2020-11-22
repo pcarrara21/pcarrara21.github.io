@@ -2,11 +2,13 @@
 	width: 50%;
     margin: 0 auto;
 }
-
-.centered{
+   
+.centered{	
     width: 100%;
     margin: 0 auto;
 }
+
+
 
 .container{
     display: flex;
@@ -16,11 +18,19 @@
     align-items: center;
 }
 
+.gif{
+    display: inline-block;
+    margin-bottom: 55px;
+
+    width: 64px;
+    height: 39px;
+}
+
 .portrait{
     display: inline-block;
     width: 120px;
     height: 120px;
-    margin-left: 7px;
+    margin-left: 7px;    
     margin-bottom: 10px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -55,9 +65,9 @@
     text-align: center;
 }
 
-.img{
-    margin: 0 auto;
-    display: block;
+.img{    
+    margin: 0 auto;   
+    display: block;  
 }
 
 .test{
@@ -78,7 +88,7 @@ a:focus{
     margin-bottom: 5px;
 }
 
-#footer{
+#footer{    
     margin-top: 10px;
 }
 
@@ -87,7 +97,7 @@ a:focus{
     margin-top: 10%;
 }
 
-#github_img{
+#github_img{                
     max-width: 60%;
     margin-top: 20%;
 }
