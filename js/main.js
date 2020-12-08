@@ -58,13 +58,19 @@ var TxtRotate = function(el, toRotate, period) {
             new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
 
+    loadQuoteOfTheDay();
+
+  };
+
+function loadQuoteOfTheDay(){
+
     fetch('./assets/files/quotes.txt')
         .then(response => response.text().then(data => {
 
             let quote;
             let nowDate = new Date();
             let startOfYear = new Date(nowDate.getFullYear(), 0 ,0);
-            let quoteNum = ((nowDate - startOfYear) / 1000*60*60*24) % 50;
+            let quoteNum = ((nowDate - startOfYear) / (1000*60*60*24)) % 50;
 
             if(quoteNum == 50)
                 quote = data.substring(data.indexOf('#50') + 3);
@@ -77,7 +83,7 @@ var TxtRotate = function(el, toRotate, period) {
             console.error('Error retrieving quotes file:', error);
           });
 
-  };
+}
 
 function onHover(id){
     switch(id){
