@@ -19,7 +19,7 @@ var TxtRotate = function(el, toRotate, period) {
     else
         this.txt = fullTxt.substring(0, this.txt.length + 1);
 
-    this.el.innerHTML = '<div class="wrap">' + this.txt + '</div>';
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     let that = this;
     let delta = 180 - Math.random() * 100;
@@ -63,18 +63,6 @@ var TxtRotate = function(el, toRotate, period) {
         .then(response => console.log(response));
 
   };
-
-  /*function loadFile(filePath) {
-  var result = null;
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open("GET", filePath, false);
-  xmlhttp.send();
-  if (xmlhttp.status==200) {
-    result = xmlhttp.responseText;
-  }
-  return result;
-}*/
-
 
 function onHover(id){
     switch(id){

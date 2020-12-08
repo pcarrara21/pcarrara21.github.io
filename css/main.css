@@ -25,11 +25,11 @@ body {
     text-align: center;
 }
 
-.blink {
-    width: 1rem ;
+.wrap::after {
+    content: '_';
+    color: #666;
+    width: 1rem;
     height: 50px;
-    margin-top: auto;
-    border-bottom: 0.05em solid #666;
     animation: blink_animation .75s infinite;
   }
 
