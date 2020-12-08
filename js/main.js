@@ -63,7 +63,7 @@ var TxtRotate = function(el, toRotate, period) {
 
             let quote;
             let nowDate = new Date();
-            let startOfYear = new Date(now.getFullYear(), 0 ,0);
+            let startOfYear = new Date(now().getFullYear(), 0 ,0);
             let quoteNum = ((nowDate - startOfYear) / 1000*60*60*24) % 50;
 
             if(quoteNum == 50)
