@@ -60,7 +60,7 @@ var TxtRotate = function(el, toRotate, period) {
 
     //Would have used Fetch API b
     fetch('./assets/files/quotes.txt')
-        .then(response => console.log(response));
+        .then(data => console.log(data));
 
   };
 
