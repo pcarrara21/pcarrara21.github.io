@@ -19,7 +19,7 @@ var TxtRotate = function(el, toRotate, period) {
     else
         this.txt = fullTxt.substring(0, this.txt.length + 1);
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+    this.el.innerHTML = '<div class="wrap">' + this.txt + '</div>';
 
     let that = this;
     let delta = 180 - Math.random() * 100;
