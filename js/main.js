@@ -71,7 +71,7 @@ var TxtRotate = function(el, toRotate, period) {
             else
                 quote = data.substring(data.indexOf('#' + quoteNum) + 1 + quoteNum.toString().length, data.indexOf('#' + (quoteNum + 1)));
 
-            document.getElementById('quote').innerHTML = data;
+            document.getElementById('quote').innerHTML = quote;
         }))
         .catch((error) => {
             console.error('Error retrieving quotes file:', error);
