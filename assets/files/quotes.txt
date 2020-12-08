@@ -1,3 +1,50 @@
-#1 TESTA
-
-#2 TESTB
+#1“All our dreams can come true, if we have the courage to pursue them.” – Walt Disney
+#2“The secret of getting ahead is getting started.” – Mark Twain
+#3“I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life and that is why I succeed.” – Michael Jordan
+#4“Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.” – Mary Kay Ash
+#5“The best time to plant a tree was 20 years ago. The second best time is now.” – Chinese Proverb
+#6“Only the paranoid survive.” – Andy Grove
+#7“It’s hard to beat a person who never gives up.” – Babe Ruth
+#8“I wake up every morning and think to myself, ‘how far can I push this company in the next 24 hours.’” – Leah Busque
+#9“If people are doubting how far you can go, go so far that you can’t hear them anymore.” – Michele Ruiz
+#10“We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.” – Arianna Huffington
+#11“Write it. Shoot it. Publish it. Crochet it, sauté it, whatever. MAKE.” – Joss Whedon
+#12“You’ve gotta dance like there’s nobody watching, love like you’ll never be hurt, sing like there’s nobody listening, and live like it’s heaven on earth.” ― William W. Purkey
+#13“Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.”― Neil Gaiman
+#14“Everything you can imagine is real.”― Pablo Picasso
+#15“When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.” ― Helen Keller
+#16“Do one thing every day that scares you.”― Eleanor Roosevelt
+#17“It’s no use going back to yesterday, because I was a different person then.”― Lewis Carroll
+#18“Smart people learn from everything and everyone, average people from their experiences, stupid people already have all the answers.” – Socrates
+#19“Do what you feel in your heart to be right – for you’ll be criticized anyway.”― Eleanor Roosevelt
+#20“Happiness is not something ready made. It comes from your own actions.” ― Dalai Lama XIV
+#21“Whatever you are, be a good one.” ― Abraham Lincoln
+#22“The same boiling water that softens the potato hardens the egg. It’s what you’re made of. Not the circumstances.” – Unknown
+#23“If we have the attitude that it’s going to be a great day it usually is.” – Catherine Pulsifier
+#24“You can either experience the pain of discipline or the pain of regret. The choice is yours.”  – Unknown
+#25“Impossible is just an opinion.” – Paulo Coelho
+#26“Your passion is waiting for your courage to catch up.” – Isabelle Lafleche
+#27“Magic is believing in yourself. If you can make that happen, you can make anything happen.” – Johann Wolfgang Von Goethe
+#28“If something is important enough, even if the odds are stacked against you, you should still do it.” – Elon Musk
+#29“Hold the vision, trust the process.” – Unknown
+#30“Don’t be afraid to give up the good to go for the great.” – John D. Rockefeller
+#31“People who wonder if the glass is half empty or full miss the point. The glass is refillable.” – Unknown
+#32“The hard days are what make you stronger.” – Aly Raisman
+#33“If you believe it’ll work out, you’ll see opportunities. If you don’t believe it’ll work out, you’ll see obstacles.” – Wayne Dyer
+#34“Keep your eyes on the stars, and your feet on the ground.” – Theodore Roosevelt
+#35“You can waste your lives drawing lines. Or you can live your life crossing them.” – Shonda Rhimes
+#36“You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.” – George Lorimer
+#37“I now tried a new hypothesis: It was possible that I was more in charge of my happiness than I was allowing myself to be.” – Michelle Obama
+#38“In a gentle way, you can shake the world.” – Mahatma Gandhi
+#39“If opportunity doesn’t knock, build a door.” – Kurt Cobain
+#40“Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart.” – Roy T. Bennett
+#41“Don’t say you don’t have enough time. You have exactly the same number of hours per day that were given to Helen Keller, Pasteur, Michelangelo, Mother Teresa, Leonardo Da Vinci, Thomas Jefferson, and Albert Einstein.” – H. Jackson Brown Jr.
+#42“Hard work beats talent when talent doesn’t work hard.” – Tim Notke
+#43“If everything seems to be under control, you’re not going fast enough.” – Mario Andretti
+#44“Opportunity is missed by most people because it is dressed in overalls and looks like work.” – Thomas Edison
+#45“The only difference between ordinary and extraordinary is that little extra.” – Jimmy Johnson
+#46“The best way to appreciate your job is to imagine yourself without one.” – Oscar Wilde
+#47“Unsuccessful people make their decisions based on their current situations. Successful people make their decisions based on where they want to be.” – Benjamin Hardy
+#48“Never stop doing your best just because someone doesn’t give you credit.” – Kamari aka Lyrikal
+#49“Work hard for what you want because it won’t come to you without a fight. You have to be strong and courageous and know that you can do anything you put your mind to. If somebody puts you down or criticizes you, just keep on believing in yourself and turn it into something positive.” – Leah LaBelle
+#50“Work hard, be kind, and amazing things will happen.” – Conan O’Brien

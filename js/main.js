@@ -58,9 +58,21 @@ var TxtRotate = function(el, toRotate, period) {
             new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
 
-    //Would have used Fetch API b
     fetch('./assets/files/quotes.txt')
-        .then(response => response.text().then(data => {document.getElementById('quote').innerHTML = data;}))
+        .then(response => response.text().then(data => {
+
+            let quote;
+            let nowDate = new Date();
+            let startOfYear = new Date(now.getFullYear(), 0 ,0);
+            let quoteNum = ((nowDate - startOfYear) / 1000*60*60*24) % 50;
+
+            if(quoteNum == 50)
+                quote = data.substring(data.indexOf('#50') + 3);
+            else
+                quote = data.substring(data.indexOf('#' + quoteNum) + 1 + quoteNum.toString().length, data.indexOf('#' + (quoteNum + 1)));
+
+            document.getElementById('quote').innerHTML = data;
+        }))
         .catch((error) => {
             console.error('Error retrieving quotes file:', error);
           });
