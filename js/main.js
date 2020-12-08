@@ -60,7 +60,10 @@ var TxtRotate = function(el, toRotate, period) {
 
     //Would have used Fetch API b
     fetch('./assets/files/quotes.txt')
-        .then(data => console.log(data));
+        .then(response => response.text().then(data => {document.getElementById('quote').innerHTML = data;}))
+        .catch((error) => {
+            console.error('Error retrieving quotes file:', error);
+          });
 
   };
 
