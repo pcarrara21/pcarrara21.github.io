@@ -1,3 +1,44 @@
+body {
+    background-image: url("../assets/img/site-background-crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.description{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.blink {
+    width: 1rem ;
+    height: 50px;
+    display: inline-block;
+    border-bottom: 0.05em solid #666;
+    animation: blink_animation .75s infinite;
+  }
+
+  @keyframes blink_animation {
+    50% {
+      opacity: 0;
+    }
+  }
+
 .header{
 	width: 50%;
     margin: 0 auto;
