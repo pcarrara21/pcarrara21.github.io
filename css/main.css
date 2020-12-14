@@ -1,7 +1,9 @@
-body {
-    background-image: url("../assets/images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+html {
+    background: url('../assets/images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .outer-container{
@@ -9,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .inner-container{
@@ -25,7 +27,7 @@ body {
 
 .divider{
     width: 100%;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .flex-container{
@@ -91,7 +93,7 @@ body {
     margin-top: 27%;
 }
 
-#linkedin_img{                /* restricting width dinamically */
+#linkedin_img{
     max-width: 55%;
     margin-top: 23%;
 }
