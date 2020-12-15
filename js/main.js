@@ -72,7 +72,7 @@ function loadQuoteOfTheDay(){
         let startOfYear = new Date(nowDate.getFullYear(), 0 ,0);
         let quoteNum = Math.trunc(((nowDate - startOfYear) / (1000*60*60*24)) % 50);
 
-        if(quoteNum == 50)
+        if(quoteNum == 0)
             quote = data.substring(data.indexOf('#50') + 3);
         else
             quote = data.substring(data.indexOf('#' + quoteNum) + 1 + quoteNum.toString().length, data.indexOf('#' + (quoteNum + 1)));
