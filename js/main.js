@@ -1,7 +1,7 @@
 class TxtAnimate{
 
-    constructor(el, toRotate, period){
-        this.toRotate = toRotate;
+    constructor(el, toAnimate, period){
+        this.toAnimate = toAnimate;
         this.el = el;
         this.loopNum = 0;
         this.period = parseInt(period, 10) || 1000;
@@ -11,9 +11,9 @@ class TxtAnimate{
 
     tick(){
 
-        let i = this.loopNum % this.toRotate.length;
+        let i = this.loopNum % this.toAnimate.length;
 
-        let fullTxt = this.toRotate[i];
+        let fullTxt = this.toAnimate[i];
 
         if (this.isDeleting)
             this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -39,7 +39,7 @@ class TxtAnimate{
             delta = 500;
         }
 
-        let stop = (this.loopNum == (this.toRotate.length -1));
+        let stop = (this.loopNum == (this.toAnimate.length -1));
 
         if(!(stop && this.isDeleting)){
             setTimeout(function(){that.tick();}, delta);
@@ -49,12 +49,12 @@ class TxtAnimate{
 
 function init(){
 
-    var element = document.getElementsByClassName('txt-rotate')[0];
+    var element = document.getElementsByClassName('txt-animate')[0];
 
-    var toRotate = element.getAttribute('data-rotate');
+    var toAnimate = element.getAttribute('data-animate');
     var period = element.getAttribute('data-period');
 
-    txtAnimation = new TxtAnimate(element, JSON.parse(toRotate), period);
+    txtAnimation = new TxtAnimate(element, JSON.parse(toAnimate), period);
     txtAnimation.tick();
 
 }
