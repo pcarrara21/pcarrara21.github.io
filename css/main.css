@@ -6,43 +6,43 @@ html {
     background-size: cover;
 }
 
-.outer-container{
+.outer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 7rem;
 }
 
-.inner-container{
+.inner-container {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
     margin: auto;
 }
 
-.margin-auto{
+.margin-auto {
     margin: auto;
 }
 
-.divider{
+.divider {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: row;
 }
 
-.logo-container{
-	width: 5rem;
+.logo-container {
+	width: 6rem;
 	height: 5rem;
 }
 
-.content{
+.content {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 60%;
     margin: auto;
     text-align: center;
@@ -52,23 +52,53 @@ html {
     content: '_';
     color: #666;
     width: 1rem;
-    height: 50px;
+    height: 3rem;
     animation: blink_animation .75s infinite;
   }
 
   @keyframes blink_animation {
-    50% {
-      opacity: 0;
-    }
+    50% { opacity: 0; }
   }
 
-.circle{
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+  @keyframes github_fall {
+    0% { top: 0rem; }
+    100% {
+            top: 6rem;
+            transform: rotate(30deg);
+        }
+  }
+
+  @keyframes github_roll {
+    0% { left: 0rem; }
+    100% {
+            top: 6.5rem;
+            left: 6rem;
+            transform: rotate(200deg);
+        }
+  }
+
+  @keyframes github_fall_over {
+    0% { top: 6.5rem; }
+    100% {
+            top: 60rem;
+            transform: rotate(30deg);
+        }
+  }
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    margin: .75rem;
 }
 
-.transition{
+.circle:hover {
+    width: 3.75rem;
+    height: 3.75rem;
+    display:inline-block;
+    text-align: center;
+}
+
+.transition {
     transition: .15s;
     -moz-transition: .15s;
     -webkit-transition: .15s;
@@ -76,57 +106,29 @@ html {
     -ms-transition: .15s;
 }
 
-.circle:hover{
-    width: 62px;
-    height: 62px;
-    display:inline-block;
-    text-align: center;
+.github_fall {
+    position: relative;
+    animation: github_fall .25s linear 0s 1 forwards,
+               github_roll 2s linear .25s 1 forwards,
+               github_fall_over 2s linear 2.25s 1 forwards;
 }
 
-#github_img{
+#github_img {
     max-width: 60%;
     margin-top: 20%;
 }
 
-#salesforce_img{
+#salesforce_img {
     max-width: 60%;
     margin-top: 31%;
 }
 
-#mail_img{
+#trailhead_img {
     max-width: 60%;
-    margin-top: 27%;
+    margin-top: 31%;
 }
 
-#linkedin_img{
+#linkedin_img {
     max-width: 55%;
     margin-top: 23%;
-}
-
-#github{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    margin-top: 15px;
-    visibility: hidden;
-}
-
-#mail{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    margin-top: 19px;
-    visibility: hidden;
-}
-
-#salesforce{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    margin-top: 19px;
-    visibility: hidden;
-}
-
-#linkedin{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    margin-top: 17px;
-    visibility: hidden;
 }
